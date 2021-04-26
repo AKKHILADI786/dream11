@@ -39,6 +39,7 @@ $(() => {
                         },()=>{
                             console.log('done')
                         })
+                        $('#content').load('html/dashboard.html')
                     })
                 }
             })
