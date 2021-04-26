@@ -1,0 +1,8 @@
+#start-match{
+    width: 300px !important;
+    height: 70px;
+    border-radius: 5px;
+    font-size: 30px;
+    font-weight: bolder;
+    box-shadow: 5px 5px 5px grey !important;
+}

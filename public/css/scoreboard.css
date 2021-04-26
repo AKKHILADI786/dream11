@@ -1,0 +1,51 @@
+.over{
+    color: yellow;
+    font-size: 20px !important;
+    font-family: 'New Tegomin', serif;
+    
+}
+#notification{
+    background-color: yellow;
+    color: black;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+
+#new_table{
+    height: 5px;
+}
+#prev-score .row div{
+    background-color: #1662dd;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    /* border: 1px solid grey; */
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+#prev-score .heading div{
+    color: black;
+    font-size: 20px;
+    
+}
+#scores .row div{
+    background-color: #1662dd;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    /* border: 1px solid grey; */
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 20px;
+}
+.match_data{
+    background-color: #1662dd;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    /* border: 1px solid grey; */
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 3px;
+}

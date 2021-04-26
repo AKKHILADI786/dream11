@@ -1,0 +1,83 @@
+
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+
+
+.car{
+    position: relative;
+    top: 20px;
+    height: 100%;
+    width: 1200px;
+    margin-bottom: 250px;
+}
+.notes{
+    font-size: 14px;
+}
+
+#first-team,#second-team{
+    color: #ffffff;
+    font-size: 35px;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    font-weight: 1000;
+    font-family: 'New Tegomin', serif;
+}
+ul{
+    list-style-type:none;
+    }
+.added_player{
+    cursor: pointer;
+    color: #ffffff;
+    border-radius: 5px;
+    margin: 2px;
+    padding-right: 30px !important;
+    height: 35px !important;
+    font-size: 20px;
+    padding-left: 15px !important;
+    background-color:  #1662dd;
+}
+#start-match{
+    width: 250px !important;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgb(20, 18, 18);
+    font-size: 25px;
+}
+
+.added_player:hover{
+    transform: scale(1.05);
+}
+.added_player:active{
+    background-color: aquamarine;
+}
+.add_player_click{
+    background-color: yellow;
+    color: black;
+}
+.captain{
+    background-color: rgb(223, 61, 21);
+    color: black;
+}
+.vice-captain{
+    background-color: rgb(206, 62, 62);
+    color: black;
+}
+.team_members{
+    cursor: pointer;
+    color: #ffffff;
+    border-radius: 5px;
+    margin: 2px;
+    padding-right: 30px !important;
+    height: 35px !important;
+    font-size: 20px;
+    padding-left: 15px !important;
+    background-color:  #1662dd;
+}
+.team_members:hover{
+    transform: scale(1.02);
+}
+h4{
+    color: yellow;
+    font-family: 'New Tegomin', serif;
+    font-weight: 1000;
+}
+/* #second-team{
+
+} */

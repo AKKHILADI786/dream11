@@ -1,0 +1,17 @@
+form .form-label{
+    color: #ffffff;
+}
+.car{
+    width: 800px;
+    height: 100%;
+    margin-bottom: 200px;
+}
+
+#signin{
+    border-radius: 100px;
+    width: 150px;
+    height: 40px;
+}
+#state{
+    height: 250px;
+}

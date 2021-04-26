@@ -1,0 +1,111 @@
+<link rel="stylesheet" href="css/scoreboard.css">
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-6">
+            <h4>Created Team Score</h4>
+        </div>
+        <div class="col-6">
+            <h4><span id="score">0</span></h4>
+            
+        </div>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col">
+            <div class="match_data" >Toss winner</div>
+        </div>
+        <div class="col">
+            <div class="match_data"  id="toss"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div class="match_data" >Toss Winner Choose</div>
+        </div>
+        <div class="col">
+            <div class="match_data"  id="toss-choose"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div class="match_data" >Batting</div>
+        </div>
+        <div class="col">
+            <div  class="match_data" id="bat-team"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div class="match_data" >Filding</div>
+        </div>
+        <div class="col">
+            <div class="match_data"  id="field-team"></div>
+        </div>
+    </div>
+<hr>
+    <div class="row mb-3">
+        <div class="row">
+            <div class="col d-flex justify-content-center">
+                <h4 class="float-center"><u>ScoreBoard</u></h4></div>
+            </div>
+        <div class="row" id="scores">
+            <div class="row">
+                <div class="col">battman</div>
+                <div class="col">asdfasdf</div>
+            </div>
+            <div class="row">
+                <div class="col">bowler</div>
+                <div class="col">asdfasdf</div>
+            </div>
+            <div class="row">
+                <div class="col">non stricker</div>
+                <div class="col">asdfasdf</div>
+            </div>
+            <div class="row">
+                <div class="col-6">run</div>
+                <div class="col-2">
+                    <div class="col-6">score</div>
+                    <div class="col-6">5</div>
+                </div>
+                <div class="col-2">
+                    <div class="col-6">extra</div>
+                    <div class="col-6">5</div>
+                </div>
+                <div class="col-2">
+                    <div class="col-6">Total</div>
+                    <div class="col-6">5</div>
+                </div>
+            </div>
+        </div>
+        <div class="row my-2">
+            
+                <div class="col-2 float-start  d-flex justify-content-center">🌟🌟🌟</div>
+                <div id="notification" class="col-8 d-flex justify-content-center">The match is started</div>
+                <div class="float-end col-2  d-flex justify-content-center">🌟🌟🌟</div>
+
+        </div>
+    </div>
+
+    <hr id="new_table">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-6"><h4>Previous matches</h4></div>
+            <div class="col-3"><h4>Total score</h4></div>
+            <div class="col-3"><h4><span id="top_score">000</span></h4></div>
+        </div>
+        <hr>
+        <div class="row" id="prev-score">
+            <div class="row heading">
+                <div class="col-2 d-flex justify-content-center">Sr.No</div>
+                <div class="col-7 d-flex justify-content-center">Match</div>
+                <div class="col-3 d-flex justify-content-center">Score</div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+<script src="../app/scoreboard.js"></script>
