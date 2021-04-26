@@ -32,7 +32,7 @@ $(()=>{
                 window.alert('login Successfully')
                 
                 $('#user_login').empty()
-                $('#content').load('html/index.html')
+                $('#content').load('html/dashboard.html')
                 $('#user_login').append(`
                 <span id="user_login"><button class="btn btn-outline-primary ms-4 me-5 btn" id="logout" type="button"> Logout</button></span>
 
