@@ -11,7 +11,7 @@ $(()=>{
     })
     $('#facebook').click(()=>{
         console.log('facebook')
-        window.open("http://localhost:4444/f/login","_self"); // write their hostname or localhost
+        window.open("https://dream786.herokuapp.com/f/login","_self"); // write their hostname or localhost
         // $.post('/f/login',(data)=>{
         //     console.log(data);
         // })
