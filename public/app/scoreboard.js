@@ -195,14 +195,14 @@ function make(temp1, temp2) {
 
         if (j >= (temp1.length - 1)) {
             clearInterval(aa);
-            window.alert('second inning')
-            setTimeout(solve(temp2), 2000);
+            window.alert('second inning started')
+            setTimeout(solve(temp2), 5000);
         }
         else {
             j++;
         }
 
-    }, 100)
+    }, 5000)
 
 
     return;
@@ -357,7 +357,7 @@ function solve(temp) {
             j++;
         }
 
-    }, 200)
+    }, 5000)
    
     
     return;
