@@ -4,10 +4,10 @@
 <br />
 <p align="center">
   <a href="https://github.com/Sarthak480/LogSafe">
-    <img src="images/logo.jpg" alt="Logo" height="80">
+    <img src="utills/download.png" alt="Logo" height="80">
   </a>
 
-  <h3 align="center">Oeys.Com</h3>
+  <h3 align="center">Dream11</h3>
 
   <p align="center">
     A dream 11 like system Select match, Make Team ,Participate in contest 
@@ -26,7 +26,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project  
 
-[![ScreenShot](images/model.jpg)](https://dream786.herokuapp.com/)
+[![ScreenShot](utills/mo.jpg)](https://dream786.herokuapp.com/)
 
 
 ### Built With
