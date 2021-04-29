@@ -69,11 +69,8 @@ To get a local copy up and running follow these simple steps.
 │   ├───images               //images of home page
 │   └───js                   // third party libraries
 ├───routes
-│   ├───carts
-│   ├───dealers
-│   ├───orders
-│   ├───product
-│   └───users         
+│   ├───match
+│   ├───scoreboard       
 └───utills             // for upload lots of product 
     └───jsons          // Data of different ipl matches for select random match
 
